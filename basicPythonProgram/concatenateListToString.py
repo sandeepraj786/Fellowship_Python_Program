@@ -4,11 +4,14 @@
    * time - 08:42
    * Title -"Write a Python program to concatenate all elements in a list into a string and return it."
 """
+try:
 
-def concatenate_list_element(list):
-    result= ''
-    for element in list:
-        result += str(element)
-    return result
+    def concatenate_list_element(list):
+        result= ''
+        for element in list:
+            result += str(element)
+        return result
 
-print(concatenate_list_element([12, 4, 9, 32]))
+    print(concatenate_list_element([12, 4, 9, 32]))
+except:
+    print("please enter a valid list")
