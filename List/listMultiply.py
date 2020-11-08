@@ -28,7 +28,7 @@ try :
         ListOfNum.append(val)
     print("List Data : ",ListOfNum)
 
-except OverflowError:
+except:
     print("check the output")
 
 if __name__ == '__main__':
