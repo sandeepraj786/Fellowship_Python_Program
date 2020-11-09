@@ -27,9 +27,9 @@ try :
     tupleData = RemoveItem()
     rangeVal = int(input("Enter The range of value you want to enter : "))
     tupleValue = ( )
-    for j in range(rangeVal):
+    for i in range(rangeVal):
         val = input("Enter The Int value for tuple : ")
-        tupleValue = tupleValue[ : j] + (val,) + tupleValue[ j : ]
+        tupleValue = tupleValue[ : i] + (val,) + tupleValue[ i: ]
     print("Tuple Data :- ", tupleValue)
     indexVal = int(input("Enter index value you want to Remove : "))
     remVal = input("Enter value you want to Remove : ")
